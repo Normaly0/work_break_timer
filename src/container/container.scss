@@ -1,0 +1,22 @@
+.container {
+    height: 500px;
+    width: 800px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 100vw;
+    }
+}
+
+.title {
+    text-align: center;
+    font-size: 2.7rem;
+    margin-bottom: 10px;  
+}
+
+.credit {
+    text-align: center;
+    color: grey;
+}

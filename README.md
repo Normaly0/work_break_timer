@@ -2,11 +2,11 @@
 
 # Pomodoro Timer App
 
-A pomodoro timer app allowing you to set work and break leanght, adjust it as the timer runs, as well as pause, reset and continue the timer and at point.
+A pomodoro timer app allows you to set work and break length, adjust it as the timer runs, as well as pause, reset and continue the timer and at point.
 
 ## About
 
-This application was build as part of the [Front End Development Libraries Certification](https://www.freecodecamp.org/certification/normaly/front-end-development-libraries).
+This application was built as part of the [Front End Development Libraries Certification](https://www.freecodecamp.org/certification/normaly/front-end-development-libraries).
 It uses the react framework and it's class based component system, in combination with the redux library.
 
 The biggest challenge of this project was creating a timer that would be accurate regardless of how many other processes the CPU is currently handling aka. a timer that wouldn't get unprecise after a certain amount of time. To accomplish that I've used the principles of `deltatime`, which allowed me to correct the timer via a function and therefore ensure that it stays accurate.
